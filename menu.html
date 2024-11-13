@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Esta pagina tiene como objetivo principal, informar sobre la Salud Mental, cuenta con información importante, videos informativos, Estadisticas, y enlaces externos">
+    <meta name="keywords"
+        content="HTML, CSS, JavaScript, Estadísticas, YouTube, Links Externos, Imagenes">
+    <meta name="author" content="Zapata Guadalupe Lourde Anahi">
+    <title>menù</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet icon" href="./img/mental-health.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    /* Efecto de transición en las tarjetas */
+    .card {
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .carousel-item img {
+        width: 50%;
+        margin: 0 auto;
+        /* Centra las imágenes dentro del contenedor */
+
+    }
+
+    .logo {
+        height: 80px;
+        /* Tamaño en pantallas grandes */
+    }
+
+    @media (max-width: 576px) {
+        .logo {
+            height: 50px;
+            /* Tamaño reducido en pantallas móviles */
+        }
+    }
+</style>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container">
+
+            <a class="navbar-brand">
+                <img src="./img/EFPN7.jpeg" width="80px" alt="Logo" class="logo">
+            </a>
+
+            <!-- Botón para expandir en pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link py-2 text-light" href="./index.html">Portafolio</a></li>
+                   
+                    <li class="nav-item"><a class="nav-link py-2 text-light" href="./videos-y-estadisticas.html">videos
+                            y estadisticas</a></li>
+                    <li class="nav-item"><a class="nav-link py-2 text-light" href="./enlaces-externos.html">enlaces
+                            xternos</a></li>
+                </ul>
+
+            </div>
+
+    </nav>
+    <br>
+    <h1 class="text-light" align="center"> <ins>La Salud Mental</ins></h1>
+    <br>
+    <h2 class="text-light text-capitalize" align="center">¿Qué es la salud mental?</h2>
+    <p class="text-align:justify text-light" style="font-size: 19px;">La salud mental incluye nuestro bienestar
+        emocional, psicológico y social. Afecta la forma en que pensamos,
+        sentimos y actuamos cuando enfrentamos la vida. También ayuda a determinar cómo manejamos el estrés, nos
+        relacionamos con los demás y tomamos decisiones. La salud mental es importante en todas las etapas de la vida,
+        desde la niñez y la adolescencia hasta la adultez y la vejez.</p>
+
+    <!-- Contenedor de Tarjetas -->
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+
+            <!-- Tarjeta 1 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="./img/gettyimages-2.jpg" class="card-img">
+                        <h5 class="card-title">Salud Mental</h5>
+                        <p class="card-text"><a
+                                href="https://es.familydoctor.org/salud-mental-como-mantener-su-salud-emocional/?adfree=true"
+                                target="_blank">Salud mental: Cómo mantener su salud emocional </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-align:justify text-light text-capitalize" align="center"> <ins>¿Qué son los trastornos mentales?</ins>
+            </h2>
+            <p class="text-align:justify text-light" align="center" style="font-size: 19px;">Las trastornos mentales (o
+                enfermedades mentales) son afecciones graves que pueden afectar
+                la
+                manera de pensar, su humor y su comportamiento. Pueden ser ocasionales o de larga duración. Pueden
+                afectar su
+                capacidad de relacionarse con los demás y funcionar cada día. Los problemas mentales son comunes, muchos
+                estadounidenses serán diagnosticados con un trastorno mental en algún momento de su vida. Sin embargo,
+                hay
+                tratamientos disponibles. Las personas con trastornos mentales pueden mejorar y muchas de ellas se
+                recuperan por
+                completo.</p>
+
+            <div class="container my-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-sm-10 col-12">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/wfOHdfqqJTs?si=9nda5Zw9rcLT3rwI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="./img/gettyimages-1.jpg" class="card-img">
+                        <h5 class="card-title text-capitalize">salud mental</h5>
+                        <p class="card-text text-capitalize"><a
+                                href="https://www.nami.org/Your-Journey/Identity-and-Cultural-Dimensions/Hispanic-Latinx/La-salud-mental-en-la-comunidad-latina/"
+                                target="_blank">La salud mental en la comunidad latina</a></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h2 class="text-align:justify text-light text-capitalize" align="center"><ins>¿Por qué es importante la salud
+                mental?</ins></h2>
+            <p class="text-align:justify text-light" style="font-size: 19px;">La salud mental es importante porque puede
+                ayudarte a:</p>
+            <ol class="text-align:justify text-light" style="font-size: 19px;">
+                <li>Enfrentar el estrés de la vida</li>
+                <li>Estar físicamente saludable</li>
+                <li>Tener relaciones sanas</li>
+                <li>Contribuir en forma significativa a su comunidad</li>
+                <li>Trabajar productivamente</li>
+                <li>Alcanzar su completo potencial</li>
+            </ol>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="./img/gettyimages-3.jpg" class="card-img">
+                        <h5 class="card-title">salud mental</h5>
+                        <p class="card-text"><a
+                                href="https://www.mayoclinic.org/es/healthy-lifestyle/adult-health/in-depth/mental-health/art-20044098?p=1"
+                                target="_blank">Salud mental: Qué es normal y qué no</a></p>
+                    </div>
+                </div>
+            </div>
+             <br>
+            <p class="text-align:justify text-light" style="font-size: 19px;" align="center">Su salud mental también es
+                importante porque puede afectar su salud física. Por ejemplo,
+                los
+                trastornos mentales
+                pueden aumentar su riesgo de problemas de salud física, como accidente cerebrovascular, diabetes tipo 2
+                y
+                enfermedades cardíacas.</p>
+            <h3 class="text-align:justify text-light text-capitalize" align="center"> <ins>¿Puede cambiar con el tiempo mi salud mental?</ins></h3>
+            <p class="text-align:justify text-light" align="center" style="font-size: 19px;">Con el tiempo, su salud mental puede cambiar. Por ejemplo, puede estar enfrentando una
+                situación
+                difícil, como tratar de controlar una enfermedad crónica, cuidar a un pariente enfermo o tener problemas
+                de
+                dinero. La situación puede agotarle y abrumar su capacidad de lidiar con ella. Esto puede empeorar su
+                salud
+                mental. <ins>Por otro lado, recibir terapia puede mejorarla.</ins> </p>
+
+            <!-- Tarjeta 4 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="./img/gettyimages-4.jpg" class="card-img">
+                        <h5 class="card-title">Salud mental</h5>
+                        <p class="card-text"><a href="https://www.apa.org/topics/resilience/camino?partner=nlm"
+                                target="_blank ">Camino a la resiliencia (adaptabilidad)</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-align:justify text-light text-capitalize" align="center" align="center"><ins>¿Cuáles son las señales de tener un problema de salud mental?</ins></h2>
+            <br>
+            <ol class="text-align:justify text-light" style="font-size: 19px;">
+                <li>Cambios en sus hábitos alimenticios o de sueño</li>
+                <li>Aislarse de las personas y actividades que disfruta</li>
+                <li>Tener nada o poca energía</li>
+                <li>Sentirse vacío o como si nada importara</li>
+                <li>Tener dolores y molestias inexplicables</li>
+                <li>Sentirse impotente o sin esperanza</li>
+                <li>Fumar, beber o usar drogas más de lo habitual</li>
+                <li>Sentirse inusualmente confundido, olvidadizo, enojado, molesto, preocupado o asustado</li>
+                <li>Tener cambios de humor severos que causen problemas en sus relaciones</li>
+                <li>Tener pensamientos y recuerdos que no puede sacar de su cabeza</li>
+                <li>Escuchar voces o creer cosas que no son ciertas</li>
+                <li>Pensar en lastimarse a sí mismo o a otros</li>
+                <li>No poder realizar tareas diarias como cuidar a sus hijos o ir al trabajo o la escuela</li>
+            </ol>
+        </div>
+
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-item ">
+                        <img src="./img/portada (2).jpeg" class="d-block mx-" alt="Imagen 1">
+                    </div>
+                    <img src="./img/imagen1 (2).jpeg" class="d-block" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/imagen2.jpeg" class="d-block" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/imagen3.jpeg" class="d-block" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/imagen4 (2).jpeg" class="d-block" alt="Imagen 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/imagen5.jpeg" class="d-block" alt="Imagen 6">
+                </div>
+            </div>
+
+            <!-- Controles de navegación hacia la izquierda y derecha -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <!-- Icono de Facebook -->
+                    <a href="https://www.facebook.com/escfp7?mibextid=ZbWKwL" target="_blank" class="text-light mx-2">
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                </div>
+                <!-- Texto de copyright -->
+                <p class="mb-0 text-light">&copy; 2024 Desarrollador Frontend JR. E.F.P. N°7 Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
